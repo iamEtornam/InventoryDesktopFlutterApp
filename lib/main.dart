@@ -83,6 +83,7 @@ class _HomePageState extends State<HomePage> {
       body: Padding(
         padding: const EdgeInsets.fromLTRB(100, 50, 100, 20),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
               'Quick Overview',
@@ -148,7 +149,7 @@ class _HomePageState extends State<HomePage> {
                         ),
                         SizedBox(height: 10),
                         Text(
-                          'Todat\'s Wage',
+                          'Today\'s Wage',
                           style: Theme.of(context).textTheme.bodyText1.copyWith(
                               color: Colors.white,
                               fontWeight: FontWeight.normal),
@@ -220,7 +221,7 @@ class _HomePageState extends State<HomePage> {
                     children: [
                       TableRow(
                           decoration: BoxDecoration(
-                              color: Color.fromRGBO(228, 233, 239, 1)),
+                              color: Theme.of(context).secondaryHeaderColor),
                           children: [
                             TableCell(
                               verticalAlignment: TableCellVerticalAlignment.middle,
