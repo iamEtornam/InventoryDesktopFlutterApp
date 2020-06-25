@@ -20,6 +20,7 @@ ThemeData customLightTheme(
       unselectedWidgetColor: Colors.grey,
       brightness: Brightness.light,
       fontFamily: GoogleFonts.pacifico().fontFamily,
+      secondaryHeaderColor: Color.fromRGBO(228, 233, 239, 1),
       cardColor: Color.fromRGBO(255, 255, 255, 1),
       inputDecorationTheme: InputDecorationTheme(
         fillColor: Color.fromRGBO(255, 255, 255, 1),
@@ -93,7 +94,8 @@ ThemeData customDarkTheme(
       platform: defaultTargetPlatform,
       unselectedWidgetColor: Colors.grey,
       brightness: Brightness.dark,
-      fontFamily: GoogleFonts.pacifico().fontFamily,
+      secondaryHeaderColor: Color.fromRGBO(31, 31, 50, 1),
+      fontFamily: GoogleFonts.montserrat().fontFamily,
       cardColor: Color.fromRGBO(31, 31, 31, 1),
       tabBarTheme: TabBarTheme(
         unselectedLabelColor: Colors.white.withOpacity(.7),
